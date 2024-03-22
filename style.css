@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  align-items: center;
+}
+
+
+.sidebar {
+  background-color: #f8f9fa;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.main-content,
+.sidebar {
+  border: 1px solid #ced4da;
+  margin-bottom: 10px;
+}
+
+.main-content img {
+  max-width: 100%; 
+  margin-bottom: 10px; 
+}
+
+.cards-container {
+  margin: 20px;
+}
+
+.form-control,
+.btn {
+  font-size: 14px;
+  padding: 0.25rem 0.5rem;
+}
+
